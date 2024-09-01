@@ -12,4 +12,4 @@ async def read_user_me():
 
 @router.get("/users/{username}", tags = ["users"])
 async def read_user(username: str):
-    return {"username": username}s
+    return {"username": username}
